@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chrome App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1></h1>
+      <div id="login-before" class="hidden text-center">
+        <h1 class="text-center">WHAT IS YOUR NAME?</h1>
+        <form id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="write name"
+          />
+          <input type="submit" value="Log In" />
+        </form>
+      </div>
+
+      <div id="login-after" class="hidden text-center">
+        <h1></h1>
+        <h1 id="greeting"></h1>
+
+        <h1></h1>
+        <h1 class="text-center">WHAT TIME IS IT NOW?</h1>
+        <h1 class="text-center" id="clock"></h2>
+
+        <h1></h1>
+        <h1 class="text-center">WHAT DO YOU WANT TO DO?</h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter">
+        </form>
+
+        <ul id="todo-list">
+        </ul>
+
+        <h1></h1>
+        <h1 class="text-center">YOUR LOCATION AND WHEATHER</h1>
+        <h1 id="weather" class="text-center">
+          <span></span>
+          <span></span>
+        </h1>
+      </div>
+    </div>
+
+    <script src="src/background.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/login.js"></script>
+
+  </body>
+</html>
