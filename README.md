@@ -8,7 +8,7 @@
 
 1. 깃헙 레포지토리 클론
 
-   ```$ git clone https://github.com/minkyung5x5/nomad-react.git```
+   ```$ git clone https://github.com/minkyung5x5/nomad-javascript.git```
 2. 브라우저에서 실행
 - 브라우저에서 직접 열기: 파일을 브라우저로 드래그 앤 드롭하거나, 파일 경로를 브라우저에 입력하여 열기
 - 로컬 서버 실행: 웹 서버를 실행하여 파일을 브라우저로 열기
